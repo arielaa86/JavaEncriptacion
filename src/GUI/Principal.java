@@ -311,7 +311,7 @@ public class Principal extends javax.swing.JFrame {
                 JDialog.setDefaultLookAndFeelDecorated(true);
                 try {
                     
-                    UIManager.setLookAndFeel(new AquaLookAndFeel());
+                    UIManager.setLookAndFeel(new WindowsLookAndFeel());
                     
                 } catch (UnsupportedLookAndFeelException ex) {
                     Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
